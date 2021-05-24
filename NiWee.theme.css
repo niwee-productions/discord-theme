@@ -3,7 +3,7 @@
  * @author NiWee Productions
  * @version 1.0.0
  * @description On met le THE sur le Thème.
- * @source https://niwee.fr
+ * @source https://git.niwee.fr/public-projects/discord-theme
  * @website https://niwee.fr
  * @invite 2fKpjAR
 */
@@ -25,8 +25,8 @@
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 51%;
-  --background-contrast: 102%;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
@@ -58,9 +58,8 @@
   --home-position: center;
   --home-size: 40px;
   --channel-unread: #EBD837;
-  --channel-color: rgb(213,125,9,1);
-  --channel-color: rgb(213,125,9,1);
-  --online-color: #43b581;
+  --channel-color: rgba(226, 223, 223, 0.89);
+  --online-color: #20d36a;
   --idle-color: #faa61a;
   --dnd-color: #C91A1A;
   --streaming-color: #593695;
@@ -69,7 +68,7 @@
   --code-font: Consolas;
   --channels-width: 335px;
   --members-width: 335px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-overlay: rgba(0,0,0,0.4);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
   --backdrop-size: var(--background-size);
