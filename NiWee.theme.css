@@ -1,0 +1,99 @@
+/**
+ * @name NiWee
+ * @author NiWee Productions
+ * @version 1.0.0
+ * @description On met le THE sur le Thème.
+ * @source https://niwee.fr
+ * @website https://niwee.fr
+ * @invite 2fKpjAR
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.gitlab.io/v6/main.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/base.css');
+@import url('https://discordstyles.github.io/RadialStatus/base.css');
+
+:root {
+  --main-color: #ED6B00;
+  --hover-color: #FF8018;
+  --success-color: #0DD535;
+  --danger-color: #DB0F0F;
+  --url-color: var(--main-color);
+  --background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 51%;
+  --background-contrast: 102%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: url('https://clearvision.gitlab.io/images/sapphire.jpg');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  --user-modal-image: url('https://images.unsplash.com/photo-1485579149621-3123dd979885?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://clearvision.gitlab.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: #EBD837;
+  --channel-color: rgb(213,125,9,1);
+  --channel-color: rgb(213,125,9,1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #C91A1A;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: 'Poppins';
+  --code-font: Consolas;
+  --channels-width: 335px;
+  --members-width: 335px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --HSL-server-icon-size: 42px;
+  --HSL-server-spacing: 25px;
+  --rs-small-spacing: 1px;
+  --rs-large-spacing: 2px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+}
